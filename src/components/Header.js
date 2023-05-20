@@ -28,7 +28,7 @@ const Header = () => {
           </div>
         </div>
         <button style={{ backgroundColor: "powderblue" }}>
-          <img src="./images/user.png" />
+          <img src="./images/user.png" alt="user profile" />
           <span>Share</span>
         </button>
         <img
