@@ -66,8 +66,9 @@ button span{
   border-radius: 100%;
 }
 .offcanvas{
-  margin-top: 50px;
+  margin-top: 60px;
   margin-bottom: 48px;
+
 }
 
 .sidebar-btn{
@@ -90,5 +91,17 @@ button span{
   left:97%;
 }
 
+.icons{
+  height:20px;
+  width: 20px;
+  object-fit: contain;
+  margin-bottom:40px;
+}
+.add-icons{
+  height:20px;
+  width: 20px;
+  object-fit: contain;
+  margin-top:40px;
+}
 
 

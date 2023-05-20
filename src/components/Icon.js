@@ -22,7 +22,29 @@ const Icon = () => {
         data-bs-backdrop="false"
         data-bs-scroll="true"
       >
-        <div class="offcanvas-body"></div>
+        <div class="offcanvas-body">
+          <div className="d-flex flex-column ">
+            <img
+              className="icons"
+              src="./images/google-calendar.png"
+              alt="google-calendar"
+            />
+            <img className="icons" src="./images/keeps.png" alt="google-keep" />
+            <img className="icons" src="./images/check.png" alt="google-Task" />
+            <img
+              className="icons"
+              src="./images/google-contacts.png"
+              alt="google-contacts"
+            />
+            <img
+              className="icons"
+              src="./images/google-maps.png"
+              alt="google-maps"
+            />
+          </div>
+          <hr />
+          <img className="add-icons" src="./images/plus.png" alt="add" />
+        </div>
       </div>
     </>
   );
